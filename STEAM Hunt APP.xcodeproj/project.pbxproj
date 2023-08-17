@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D789FC5E2A8E6F06002AA43A /* STEAM_Hunt_APPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789FC5D2A8E6F06002AA43A /* STEAM_Hunt_APPApp.swift */; };
+		D789FC602A8E6F06002AA43A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789FC5F2A8E6F06002AA43A /* ContentView.swift */; };
+		D789FC622A8E6F09002AA43A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D789FC612A8E6F09002AA43A /* Assets.xcassets */; };
+		D789FC652A8E6F09002AA43A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D789FC642A8E6F09002AA43A /* Preview Assets.xcassets */; };
+		D789FC6F2A8E6F09002AA43A /* STEAM_Hunt_APPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789FC6E2A8E6F09002AA43A /* STEAM_Hunt_APPTests.swift */; };
+		D789FC792A8E6F09002AA43A /* STEAM_Hunt_APPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789FC782A8E6F09002AA43A /* STEAM_Hunt_APPUITests.swift */; };
+		D789FC7B2A8E6F09002AA43A /* STEAM_Hunt_APPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D789FC7A2A8E6F09002AA43A /* STEAM_Hunt_APPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D789FC6B2A8E6F09002AA43A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D789FC522A8E6F06002AA43A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D789FC592A8E6F06002AA43A;
+			remoteInfo = "STEAM Hunt APP";
+		};
+		D789FC752A8E6F09002AA43A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D789FC522A8E6F06002AA43A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D789FC592A8E6F06002AA43A;
+			remoteInfo = "STEAM Hunt APP";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D789FC5A2A8E6F06002AA43A /* STEAM Hunt APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STEAM Hunt APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D789FC5D2A8E6F06002AA43A /* STEAM_Hunt_APPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAM_Hunt_APPApp.swift; sourceTree = "<group>"; };
+		D789FC5F2A8E6F06002AA43A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D789FC612A8E6F09002AA43A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D789FC642A8E6F09002AA43A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D789FC6A2A8E6F09002AA43A /* STEAM Hunt APPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEAM Hunt APPTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D789FC6E2A8E6F09002AA43A /* STEAM_Hunt_APPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAM_Hunt_APPTests.swift; sourceTree = "<group>"; };
+		D789FC742A8E6F09002AA43A /* STEAM Hunt APPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "STEAM Hunt APPUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D789FC782A8E6F09002AA43A /* STEAM_Hunt_APPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAM_Hunt_APPUITests.swift; sourceTree = "<group>"; };
+		D789FC7A2A8E6F09002AA43A /* STEAM_Hunt_APPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STEAM_Hunt_APPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D789FC572A8E6F06002AA43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789FC672A8E6F09002AA43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789FC712A8E6F09002AA43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D789FC512A8E6F06002AA43A = {
+			isa = PBXGroup;
+			children = (
+				D789FC5C2A8E6F06002AA43A /* STEAM Hunt APP */,
+				D789FC6D2A8E6F09002AA43A /* STEAM Hunt APPTests */,
+				D789FC772A8E6F09002AA43A /* STEAM Hunt APPUITests */,
+				D789FC5B2A8E6F06002AA43A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D789FC5B2A8E6F06002AA43A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D789FC5A2A8E6F06002AA43A /* STEAM Hunt APP.app */,
+				D789FC6A2A8E6F09002AA43A /* STEAM Hunt APPTests.xctest */,
+				D789FC742A8E6F09002AA43A /* STEAM Hunt APPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D789FC5C2A8E6F06002AA43A /* STEAM Hunt APP */ = {
+			isa = PBXGroup;
+			children = (
+				D789FC5D2A8E6F06002AA43A /* STEAM_Hunt_APPApp.swift */,
+				D789FC5F2A8E6F06002AA43A /* ContentView.swift */,
+				D789FC612A8E6F09002AA43A /* Assets.xcassets */,
+				D789FC632A8E6F09002AA43A /* Preview Content */,
+			);
+			path = "STEAM Hunt APP";
+			sourceTree = "<group>";
+		};
+		D789FC632A8E6F09002AA43A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D789FC642A8E6F09002AA43A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D789FC6D2A8E6F09002AA43A /* STEAM Hunt APPTests */ = {
+			isa = PBXGroup;
+			children = (
+				D789FC6E2A8E6F09002AA43A /* STEAM_Hunt_APPTests.swift */,
+			);
+			path = "STEAM Hunt APPTests";
+			sourceTree = "<group>";
+		};
+		D789FC772A8E6F09002AA43A /* STEAM Hunt APPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D789FC782A8E6F09002AA43A /* STEAM_Hunt_APPUITests.swift */,
+				D789FC7A2A8E6F09002AA43A /* STEAM_Hunt_APPUITestsLaunchTests.swift */,
+			);
+			path = "STEAM Hunt APPUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D789FC592A8E6F06002AA43A /* STEAM Hunt APP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D789FC7E2A8E6F09002AA43A /* Build configuration list for PBXNativeTarget "STEAM Hunt APP" */;
+			buildPhases = (
+				D789FC562A8E6F06002AA43A /* Sources */,
+				D789FC572A8E6F06002AA43A /* Frameworks */,
+				D789FC582A8E6F06002AA43A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "STEAM Hunt APP";
+			productName = "STEAM Hunt APP";
+			productReference = D789FC5A2A8E6F06002AA43A /* STEAM Hunt APP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D789FC692A8E6F09002AA43A /* STEAM Hunt APPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D789FC812A8E6F09002AA43A /* Build configuration list for PBXNativeTarget "STEAM Hunt APPTests" */;
+			buildPhases = (
+				D789FC662A8E6F09002AA43A /* Sources */,
+				D789FC672A8E6F09002AA43A /* Frameworks */,
+				D789FC682A8E6F09002AA43A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D789FC6C2A8E6F09002AA43A /* PBXTargetDependency */,
+			);
+			name = "STEAM Hunt APPTests";
+			productName = "STEAM Hunt APPTests";
+			productReference = D789FC6A2A8E6F09002AA43A /* STEAM Hunt APPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D789FC732A8E6F09002AA43A /* STEAM Hunt APPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D789FC842A8E6F09002AA43A /* Build configuration list for PBXNativeTarget "STEAM Hunt APPUITests" */;
+			buildPhases = (
+				D789FC702A8E6F09002AA43A /* Sources */,
+				D789FC712A8E6F09002AA43A /* Frameworks */,
+				D789FC722A8E6F09002AA43A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D789FC762A8E6F09002AA43A /* PBXTargetDependency */,
+			);
+			name = "STEAM Hunt APPUITests";
+			productName = "STEAM Hunt APPUITests";
+			productReference = D789FC742A8E6F09002AA43A /* STEAM Hunt APPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D789FC522A8E6F06002AA43A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D789FC592A8E6F06002AA43A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D789FC692A8E6F09002AA43A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D789FC592A8E6F06002AA43A;
+					};
+					D789FC732A8E6F09002AA43A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D789FC592A8E6F06002AA43A;
+					};
+				};
+			};
+			buildConfigurationList = D789FC552A8E6F06002AA43A /* Build configuration list for PBXProject "STEAM Hunt APP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D789FC512A8E6F06002AA43A;
+			productRefGroup = D789FC5B2A8E6F06002AA43A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D789FC592A8E6F06002AA43A /* STEAM Hunt APP */,
+				D789FC692A8E6F09002AA43A /* STEAM Hunt APPTests */,
+				D789FC732A8E6F09002AA43A /* STEAM Hunt APPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D789FC582A8E6F06002AA43A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D789FC652A8E6F09002AA43A /* Preview Assets.xcassets in Resources */,
+				D789FC622A8E6F09002AA43A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789FC682A8E6F09002AA43A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789FC722A8E6F09002AA43A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D789FC562A8E6F06002AA43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D789FC602A8E6F06002AA43A /* ContentView.swift in Sources */,
+				D789FC5E2A8E6F06002AA43A /* STEAM_Hunt_APPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789FC662A8E6F09002AA43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D789FC6F2A8E6F09002AA43A /* STEAM_Hunt_APPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D789FC702A8E6F09002AA43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D789FC7B2A8E6F09002AA43A /* STEAM_Hunt_APPUITestsLaunchTests.swift in Sources */,
+				D789FC792A8E6F09002AA43A /* STEAM_Hunt_APPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D789FC6C2A8E6F09002AA43A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D789FC592A8E6F06002AA43A /* STEAM Hunt APP */;
+			targetProxy = D789FC6B2A8E6F09002AA43A /* PBXContainerItemProxy */;
+		};
+		D789FC762A8E6F09002AA43A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D789FC592A8E6F06002AA43A /* STEAM Hunt APP */;
+			targetProxy = D789FC752A8E6F09002AA43A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D789FC7C2A8E6F09002AA43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D789FC7D2A8E6F09002AA43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D789FC7F2A8E6F09002AA43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEAM Hunt APP/Preview Content\"";
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.STEAM-Hunt-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D789FC802A8E6F09002AA43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"STEAM Hunt APP/Preview Content\"";
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.STEAM-Hunt-APP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D789FC822A8E6F09002AA43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.STEAM-Hunt-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEAM Hunt APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEAM Hunt APP";
+			};
+			name = Debug;
+		};
+		D789FC832A8E6F09002AA43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.STEAM-Hunt-APPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STEAM Hunt APP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/STEAM Hunt APP";
+			};
+			name = Release;
+		};
+		D789FC852A8E6F09002AA43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.STEAM-Hunt-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "STEAM Hunt APP";
+			};
+			name = Debug;
+		};
+		D789FC862A8E6F09002AA43A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Capstone.STEAM-Hunt-APPUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "STEAM Hunt APP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D789FC552A8E6F06002AA43A /* Build configuration list for PBXProject "STEAM Hunt APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D789FC7C2A8E6F09002AA43A /* Debug */,
+				D789FC7D2A8E6F09002AA43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D789FC7E2A8E6F09002AA43A /* Build configuration list for PBXNativeTarget "STEAM Hunt APP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D789FC7F2A8E6F09002AA43A /* Debug */,
+				D789FC802A8E6F09002AA43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D789FC812A8E6F09002AA43A /* Build configuration list for PBXNativeTarget "STEAM Hunt APPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D789FC822A8E6F09002AA43A /* Debug */,
+				D789FC832A8E6F09002AA43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D789FC842A8E6F09002AA43A /* Build configuration list for PBXNativeTarget "STEAM Hunt APPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D789FC852A8E6F09002AA43A /* Debug */,
+				D789FC862A8E6F09002AA43A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D789FC522A8E6F06002AA43A /* Project object */;
+}
